@@ -1,21 +1,21 @@
 @media only screen and (min-width: 1281px) {
 	body {
-	background-color: purple;
+	background-color: #F6CED8;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
 	body {
-	background-color: orange;
+	background-color: #F5A9BC;
 	}
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
 	body {
-	background-color: green;
+	background-color: #F7819F;
 	}
 }
 @media only screen and (min-width: 1px) and (max-width: 480px) {
 	body {
-	background-color: pink;
+	background-color: #FA5882;
 	}
 }
 
