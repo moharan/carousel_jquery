@@ -1,8 +1,43 @@
-body {
+* {
 	margin: 0 auto;
 	padding: 0;
+	list-style: none;
+	text-decoration: none;
 }
-.carousel {
-	background-color: black;
+#principal {
+	position: relative;
+	margin: auto;
+	width: 100%;
+	/*overflow:hidden;*/
+}
+#principal ul {
+	position: relative;
+	margin: auto;
+	height: auto;
+	width: 500%;
+}
+#principal li {
+	float: left;
+	width: 20%;
+}
+#principal li img {
+	width: 100%;
+}
+#botonera {
+	position: relative;
+	width: 100%;
+	margin: auto;
+	height: 10px;
 	text-align: center;
+	top: 0;
 }
+#botonera li {
+	display: inline-block;
+	margin: 0px;
+	cursor: pointer;
+	color: white;
+}
+#botonera li:hover {
+	color: black;
+}
+
