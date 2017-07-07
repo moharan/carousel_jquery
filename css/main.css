@@ -25,7 +25,7 @@
 }
 #botonera {
 	position: relative;
-	width: 100%;
+	width: 25%;
 	margin: auto;
 	height: 10px;
 	text-align: center;
@@ -39,5 +39,21 @@
 }
 #botonera li:hover {
 	color: black;
+}
+#next01 {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	cursor: pointer;
+	color: white;
+	font-size: 20px;
+}
+#next02 {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	cursor: pointer;
+	color: white;
+	font-size: 20px;
 }
 
