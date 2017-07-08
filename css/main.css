@@ -4,6 +4,8 @@
 	list-style: none;
 	text-decoration: none;
 }
+body {
+}
 #principal {
 	position: relative;
 	margin: auto;
@@ -38,10 +40,14 @@
 	color: white;
 }
 #botonera li:hover {
-	color: black;
+	opacity: .5;
+}
+#botonera li:first-child {
+	color: purple
 }
 #next01 {
 	position: absolute;
+	z-index: 1;
 	top: 50%;
 	left: 0;
 	cursor: pointer;
@@ -50,6 +56,7 @@
 }
 #next02 {
 	position: absolute;
+	z-index: 1;
 	top: 50%;
 	right: 0;
 	cursor: pointer;
